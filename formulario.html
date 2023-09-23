@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario web</title>
+</head>
+<body>
+    <form action="redireccion.html" method="post">
+        <p><label for="nombre"> Nombre: <input type="text" id="nombre"></label></p>
+        <p><label for="apellido"> Apellido: <input type="text" id="apellido"></label></p>
+        <p><label for="edad"> Edad: <input type="text" id="edad"></label></p>
+        <p><label> Estatura:
+            <select id="estatura">
+                <option value="< 1,50" selected> < 1,50 mts </option>
+                <option value="1,51 a 160"> 1,51 a 1,60 mts </option>
+                <option value="1,61 a 170"> 1,61 a 1,70 mts </option>
+                <option value="1,71 a 180" disabled> 1,71 a 1,80 mts </option>
+            </select>
+        </label></p>
+        <p><b>Color de ojos: </b></p>
+        <input type="checkbox" value="marron">
+        <label>Marrón</label><br>
+        <input type="checkbox" value="verde" checked>
+        <label>Verde</label><br>
+        <input type="checkbox" value="celeste">
+        <label>Celeste</label><br>
+        <input type="checkbox" value="otros" disabled>
+        <label>Otros</label><br>
+        <p><label for="observacion"> Observacion: <textarea id="observacion"></textarea></label></p>
+        <button type="submit"> Enviar </button>  
+    </form>
+    
+</body>
+</html>
